@@ -144,5 +144,5 @@ RUN set -eux; \
 
 COPY httpd-foreground /usr/local/bin/
 
-EXPOSE 8080
+EXPOSE 8081
 CMD ["httpd-foreground"]
